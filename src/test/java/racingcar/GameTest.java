@@ -10,7 +10,7 @@ public class GameTest {
     void 점수_0에서9_생성() {
 
         final Game game = new Game();
-        assertThat(game.scoreGenerator() < 10).isTrue();
-        assertThat(game.scoreGenerator() > -1).isTrue();
+        assertThat(game.scoreGenerator(1).get(0) < 10).isTrue();
+        assertThat(game.scoreGenerator(1).get(0) > -1).isTrue();
     }
 }

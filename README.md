@@ -45,11 +45,12 @@ ex) git checkout -b apply-feedback
   - [x] 자동차 ','로 이름 구분
   - [x] 자동차 이름 제한 5자 이하 - Car#name
   - [x] 자동차 각 위치 저장 - Car#position
-- [ ] 유저 입력 시도 횟수 만큼 반복 - Game
+- [x] 유저 입력 시도 횟수 만큼 반복 - Game#start
   -[ ] 0 ~ 9 랜덤 값 중 4 이상일 경우에 전진
     -[x] 0 ~ 9 랜덤 값 생성기 Game#scoreGenerator
     -[x] 4 이상일 경우전진 기능 Car#isForward
     -[ ] 이동시 자동차 이름 출력 기능
+    -[x] 자동차들 이동 Cars#move 
     
 -[ ] 완료 후 우승자 출력 여러명일 수 있음
   -[x] 우승자 선발 Cars#winners

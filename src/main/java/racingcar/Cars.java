@@ -38,4 +38,8 @@ public class Cars {
             cars.get(i).forward(scores.get(i));
         }
     }
+
+    public int getCount() {
+        return cars.size();
+    }
 }
