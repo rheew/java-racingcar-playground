@@ -26,4 +26,16 @@ public class Cars {
                 .map(car -> car.getName())
                 .collect(Collectors.joining(","));
     }
+
+    public int getPosition(int ind) {
+
+        return cars.get(ind).getPosition();
+    }
+
+    public void move(List<Integer> scores) {
+
+        for (int i = 0; i < scores.size(); i++) {
+            cars.get(i).forward(scores.get(i));
+        }
+    }
 }
