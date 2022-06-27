@@ -39,7 +39,9 @@ ex) git checkout -b apply-feedback
     -[x] 커스텀 구분자 파악 ('//', '\n' 사이에 있는 문자열이 구분자)
   
 -[x] 숫자가 아니거나 음수일 경우 RuntimeException 을 발생시킨다.
+
 ---
+
 ### 자동차 경주 기능 구현
 -[x] 자동차 생성 기능 - Cars
   - [x] 자동차 ','로 이름 구분
